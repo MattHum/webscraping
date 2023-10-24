@@ -16,3 +16,4 @@ for query in desired_google_queries:
     # Extracting number of results
     resultStats = soup.find(id="resultStats")
     print(resultStats)
+    print(test)
