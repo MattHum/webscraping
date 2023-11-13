@@ -32,6 +32,9 @@ h1.send_keys("1140")
 # Assume the button has the ID "submit" :)
 driver.find_element(By.CLASS_NAME, "btn.btn-primary").click()
 
+driver.implicitly_wait(5)
+
+
 time.sleep(30) # Let the user actually see something!
 #driver.quit()
 
